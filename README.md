@@ -15,24 +15,24 @@ I built this engine to solve a common problem in personal finance: most people o
 
 ### Prerequisites
 You will need Python installed along with the essential data science stack:
-  '''bash
+  ```bash
 pip install pandas numpy matplotlib
 
 Installation & Usage
 Clone the project:
 
-  '''bash
+  ```bash
 git clone [https://github.com/YOUR-USERNAME/portfolio-stress-tester.git](https://github.com/YOUR-USERNAME/portfolio-stress-tester.git)
 cd portfolio-stress-tester
 Establish the Market Baseline:
 
-  '''bash
+  ```bash
 python generate_market_data.py
 This creates 730 days of historical pricing data based on asset class volatility.
 
 Run the Stress Test:
 
- '''bash
+ ```bash
 python stress_tester.py
 
 
